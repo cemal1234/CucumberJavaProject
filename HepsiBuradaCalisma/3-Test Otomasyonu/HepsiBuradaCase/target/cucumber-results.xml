@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="5" time="0">
+<testcase classname="Create Account" name="Access to the page and create a new member registration" time="0">
+<skipped><![CDATA[Given Go to the automationpractice.com......................................undefined
+When Create a new user......................................................undefined
+Then Check user on homepage.................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Create Account" name="Go to the summer dresses category and choose a product" time="0">
+<skipped><![CDATA[Given First dress category then summer dress category is selected...........undefined
+When A product is selected and added to the basket..........................undefined
+Then Summer is entered in the search field and one of the results is added to the basket.undefined
+]]></skipped>
+</testcase>
+<testcase classname="Create Account" name="Go to cart and verify products" time="0">
+<skipped><![CDATA[Given Go to the basket......................................................undefined
+When Added product details are checked......................................undefined
+Then Proceed to checkout....................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Create Account" name="Address and Cargo selection" time="0">
+<skipped><![CDATA[Given Continue with the registered address..................................undefined
+When Continue with the recommended cargo....................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Create Account" name="Checkout and Order Control" time="0">
+<skipped><![CDATA[Given One of the payment methods selected...................................undefined
+When The order is confirmed.................................................undefined
+Then Go to the user menu and check the order................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+<suite name="HepsiBuradaCase"  >
+    <tests >
+        <test name="BrowserSelect">
+            <parameter name="browser" value="chrome"/>
+            <classes>
+                <class name="Runners.RunnerCreateAccount"/>
+            </classes>
+        </test>
+    </tests>
+</suite>
