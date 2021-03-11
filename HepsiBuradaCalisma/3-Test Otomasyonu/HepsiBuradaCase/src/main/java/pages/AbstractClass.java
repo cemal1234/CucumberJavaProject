@@ -136,6 +136,8 @@ public  abstract class AbstractClass {
         System.out.println("Ürün Adı: " + productNameText.getText());
         String productNameNew = productNameText.getText();
 
+        // proje çalıştırılmadan önce kendi yolunuzu vermeniz gerekir.
+        
         File f = new File("D:\\Users\\admin\\Desktop\\HepsiBuradaCase\\src\\main\\resources/productName.txt");
         FileWriter fileWriter = new FileWriter(f);
         fileWriter.write(productNameNew);
@@ -146,6 +148,8 @@ public  abstract class AbstractClass {
         System.out.println("Ürün Fiyatı: " + productPriceText.getText() + "\n");
         String productPriceNew = productPriceText.getText();
 
+        // proje çalıştırılmadan önce kendi yolunuzu vermeniz gerekir.
+        
         File ff = new File("D:\\Users\\admin\\Desktop\\HepsiBuradaCase\\src\\main\\resources/productPrice.txt");
         FileWriter fileWriters = new FileWriter(ff);
         fileWriters.write(productPriceNew);
@@ -181,6 +185,8 @@ public  abstract class AbstractClass {
         System.out.println("Ürün Adı2: " + productNameText2.getText());
         String productNameNew2 = productNameText2.getText();
 
+        // proje çalıştırılmadan önce kendi yolunuzu vermeniz gerekir.
+        
         File F = new File("D:\\Users\\admin\\Desktop\\HepsiBuradaCase\\src\\main\\resources/productName2.txt");
         FileWriter fileWriter = new FileWriter(F);
         fileWriter.write(productNameNew2);
@@ -191,6 +197,8 @@ public  abstract class AbstractClass {
         System.out.println("Ürün Fiyatı2: " + productPriceText2.getText() + "\n");
         String productPriceNew2 = productPriceText2.getText();
 
+        // proje çalıştırılmadan önce kendi yolunuzu vermeniz gerekir.
+        
         File FF = new File("D:\\Users\\admin\\Desktop\\HepsiBuradaCase\\src\\main\\resources/productPrice2.txt");
         FileWriter fileWriters = new FileWriter(FF);
         fileWriters.write(productPriceNew2);
