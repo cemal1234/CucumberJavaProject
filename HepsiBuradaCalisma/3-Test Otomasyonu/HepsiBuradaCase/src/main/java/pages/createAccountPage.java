@@ -321,6 +321,8 @@ public class createAccountPage extends AbstractClass{
 
         //cartFirstProduct
 
+        // proje çalıştırılmadan önce kendi yolunuzu vermeniz gerekir.
+
         File file = new File("D:\\Users\\admin\\Desktop\\HepsiBuradaCase\\src\\main\\resources/productName.txt");
         BufferedReader reader = null;
         reader = new BufferedReader(new FileReader(file));
@@ -331,6 +333,8 @@ public class createAccountPage extends AbstractClass{
 
         //cartFirstProductPrice
 
+        // proje çalıştırılmadan önce kendi yolunuzu vermeniz gerekir.
+        
         File filee = new File("D:\\Users\\admin\\Desktop\\HepsiBuradaCase\\src\\main\\resources/productPrice.txt");
         BufferedReader readerr = null;
         readerr = new BufferedReader(new FileReader(filee));
